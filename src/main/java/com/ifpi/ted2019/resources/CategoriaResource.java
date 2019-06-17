@@ -16,6 +16,7 @@ public class CategoriaResource {
 		List<Categoria> categorias = new ArrayList<Categoria>();
 		categorias.add(new Categoria(1, "Informática"));
 		categorias.add(new Categoria(2, "Escritório"));
+		categorias.add(new Categoria(3, "Laboratório"));
 		return categorias;
 	}
 	
