@@ -14,7 +14,6 @@ import com.ifpi.ted2019.services.CategoriaService;
 @RestController
 @RequestMapping(value = "/categorias")
 public class CategoriaResource {
-	
 	@Autowired
 	private CategoriaService service;
 	
@@ -23,5 +22,4 @@ public class CategoriaResource {
 		Categoria object = service.buscar(id);
 		return ResponseEntity.ok().body(object);
 	}
-	
 }

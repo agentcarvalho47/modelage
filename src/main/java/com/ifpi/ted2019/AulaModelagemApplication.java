@@ -12,7 +12,6 @@ import com.ifpi.ted2019.repositories.CategoriaRepository;
 
 @SpringBootApplication
 public class AulaModelagemApplication implements CommandLineRunner {
-	
 	@Autowired
 	private CategoriaRepository categoriaRepository;
 	
@@ -28,5 +27,4 @@ public class AulaModelagemApplication implements CommandLineRunner {
 		
 		categoriaRepository.saveAll(Arrays.asList(categoria, categoria2));
 	}
-
 }
